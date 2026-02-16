@@ -243,7 +243,7 @@ app.get("/messages/inbox/:userId", async (req, res) => {
   }
 });
 app.get("/", (req, res) => {
-  res.send("Backend is running successfully")
+  res.send("Backend is running successfully");
 });
 
 /* ------------------ START SERVER ------------------ */
